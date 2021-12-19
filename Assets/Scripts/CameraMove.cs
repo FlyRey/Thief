@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
-    public GameObject dotOfCamera;
+    public Transform dotOfCamera;
     public float SpeedCam = 15;
 
     private bool _isActive;
